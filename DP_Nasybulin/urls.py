@@ -20,4 +20,5 @@ from . import lists
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', lists.home),
+    path('about/', lists.about)
 ]
